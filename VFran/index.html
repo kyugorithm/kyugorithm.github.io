@@ -76,14 +76,13 @@
 
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>VIVE STUDIOS,</span>
-            <span class="author-block"><sup>2</sup>Korea University</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2212.13344"
+                <a href="https://arxiv.org/abs/xxxx.xxxxx"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -94,7 +93,7 @@
 
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/hxngiee/DiffFace"
+                <a href="https://github.com/kyugorithm/xxxxxxxx"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -132,7 +131,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We propose a novel diffusion-based face swapping framework, called DiffFace, composed of training ID Conditional DDPM, sampling with facial guidance, and a target-preserving blending. In specific, in the training process, the ID Conditional DDPM is trained to generate face images with the desired identity. In the sampling process, we use the off-the-shelf facial expert models to make the model transfer source identity while preserving target attributes faithfully. During this process, to preserve the background of the target image, we additionally propose a target-preserving blending strategy. It helps our model to keep the attributes of the target face from noise while transferring the source facial identity. In addition, without any re-training, our model can flexibly apply additional facial guidance and adaptively control the ID-attributes trade-off to achieve the desired results. To the best of our knowledge, this is the first approach that applies the diffusion model in face swapping task. Compared with previous GAN-based approaches, by taking advantage of the diffusion model for the face swapping task, DiffFace achieves better benefits such as training stability, high fidelity, and controllability. Extensive experiments show that our DiffFace is comparable or superior to the state-of-the-art methods on the standard face swapping benchmark.
+            Face age transformation or face re-aging, the process of manipulating the apparent age in facial images, has attracted the attention of researchers due to its various potential applications in digital editing, forensics, and security. Despite promising results from recent studies, translating this technology into video applications remains challenging. This is because existing state-of-the-art methods process each image individually and do not guarantee temporal consistency. On the other hand, various video editing methods manipulate the age in the latent space, displaying improved temporal consistencies, but their age transformation quality needs to be improved. To address these limitations, we present the first synthetic video dataset that includes videos of subjects at varying paired ages. Our proposed dataset leverages recent advances in face reenactment and frame interpolation to synthesize diverse poses, expressions, and natural motion. To demonstrate the quality of the proposed dataset, we introduce the Video Face Re-Aging Network, a video age transformation solution that effectively solves the consistency problem. We utilize multiple discriminators that consider both temporal consistency and age transformation, preserving the quality of frames without affecting the temporal consistency across the frames. We propose two novel metrics to assess the model's translation equivariance and the temporal consistency of age-related regions. We compare our method with existing state-of-the-art methods on publicly available image and video datasets using both qualitative and quantitative experiments. Experimental results show that our method outperforms the existing approaches in age transformation and video consistency.
           </p>
         </div>
       </div>
